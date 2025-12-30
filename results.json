@@ -1,0 +1,101 @@
+[
+  { "username": "10001", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 76, "physics": 81, "chemistry": 79 } }
+    ]
+  },
+
+  { "username": "10002", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 65, "physics": 74, "chemistry": 70 } }
+    ]
+  },
+
+  { "username": "10003", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 88, "physics": 92, "chemistry": 84 } }
+    ]
+  },
+
+  { "username": "10004", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 59, "physics": 61, "chemistry": 67 } }
+    ]
+  },
+
+  { "username": "10005", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 72, "physics": 69, "chemistry": 74 } }
+    ]
+  },
+
+  { "username": "10006", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 81, "physics": 77, "chemistry": 80 } }
+    ]
+  },
+
+  { "username": "10007", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 90, "physics": 93, "chemistry": 88 } }
+    ]
+  },
+
+  { "username": "10008", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 68, "physics": 72, "chemistry": 71 } }
+    ]
+  },
+
+  { "username": "10009", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 79, "physics": 83, "chemistry": 78 } }
+    ]
+  },
+
+  { "username": "10010", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 52, "physics": 58, "chemistry": 55 } }
+    ]
+  },
+
+  /* ----- SAME PATTERN CONTINUES FOR ALL 100 STUDENTS ----- */
+
+  { "username": "10011", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 77, "physics": 73, "chemistry": 79 } } ] },
+
+  { "username": "10012", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 69, "physics": 64, "chemistry": 70 } } ] },
+
+  { "username": "10013", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 92, "physics": 95, "chemistry": 90 } } ] },
+
+  { "username": "10014", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 58, "physics": 60, "chemistry": 62 } } ] },
+
+  { "username": "10015", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 74, "physics": 76, "chemistry": 71 } } ] },
+
+  { "username": "10016", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 84, "physics": 87, "chemistry": 82 } } ] },
+
+  { "username": "10017", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 61, "physics": 57, "chemistry": 63 } } ] },
+
+  { "username": "10018", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 70, "physics": 69, "chemistry": 72 } } ] },
+
+  { "username": "10019", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 85, "physics": 81, "chemistry": 88 } } ] },
+
+  { "username": "10020", "exams": [ { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 56, "physics": 54, "chemistry": 59 } } ] },
+
+  /* (… students 10021 → 10100 follow same pattern …) */
+
+  { "username": "10100", "exams": [
+      { "exam_name": "Mock Test 1", "exam_id": "MT1",
+        "scores": { "math": 73, "physics": 78, "chemistry": 75 } }
+    ]
+  }
+]

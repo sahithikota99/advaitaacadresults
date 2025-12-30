@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+
+        <div class="welcome-card">
+            <h2>Welcome, {{ student.name }}</h2>
+            <p>Your performance summary is shown below.</p>
+        </div>
+
+        {% if results %}
+            {% for exam in results %}
+                <div class="exam-card">
+                    <h3>{{ exam.exam_name }}</h3>
+
+                    <!-- Marks Table -->
+                    <table class="marks-table">
+                        <tr>
+                            <th>Subject</th>
+                            <th>Marks</th>
+                        </tr>
+                        {% for subject, mark in exam.marks.items() %}
+                        <tr>
+                            <td>{{ subject }}</td>
+                            <td>{{ mark }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+
+                    <p class="total-score">Total Score: {{ exam.total }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="no-results">No results found.</p>
+        {% endif %}
+
+        <a class="logout-btn" href="/logout">Logout</a>
+    </div>
+
+</body>
+</html>
